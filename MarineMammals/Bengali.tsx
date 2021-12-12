@@ -18,7 +18,7 @@ const data: any[] = [
         type: "Marine Mammals" ,
     },
     {   
-        scientific_name: " Megaptera novaeangliae" ,
+        scientific_name: "Megaptera novaeangliae" ,
         image_path: "Humpback-Whale" ,
         local_name: "কুঁজো তিমি" ,
         IUCN_status: "LC" ,
