@@ -1,0 +1,400 @@
+
+let availableLanguages = [
+    {name: 'English', local_name: 'English'},
+    {name: 'Hindi', local_name: 'हिंदी'},
+    {name: 'Gujarati', local_name: 'ગુજરાતી'},
+    {name: 'Marathi', local_name: 'मराठी'},
+    {name: 'Kannada', local_name: 'ಕನ್ನಡ'},
+    {name: 'Malayalam', local_name: 'മലയാളം'},
+    {name: 'Tamil', local_name: 'தமிழ்'},
+    {name: 'Odia', local_name: 'ଓଡ଼ିଆ'},
+    {name: 'Bengali', local_name: 'বাংলা'},
+    {name: 'Konkani', local_name: 'कोंकणी'},
+    {name: 'Indonesian', local_name: 'Bahasa Indonesia'},
+    {name: 'Malay', local_name: 'Melayu'},
+    {name: 'Sindhi', local_name: 'سنڌي'}, // Right to Left
+    {name: 'Sinhala', local_name: 'සිංහල'},
+    {name: 'Telgu', local_name: 'తెలుగు'},
+    {name: 'Thai', local_name: 'ภาษาไทย'},
+    {name: 'Urdu', local_name: 'اردو'} // Right to Left
+]
+
+/*
+Words to Translate
+    SIZE
+    COLOUR PATTERN
+    DORSAL FIN
+    TEETH COUNT
+    BALEEN PLATE
+    THROAT GROOVES
+    SEASONAL MOVEMENT
+    HABITAT PREFERANCE
+    IDENTIFY
+    REDUCE ANIMATION
+    ANIMATION
+    LANGUAGE
+    MARINE MAMMALS
+    ABOUT
+    TURTLES
+    ELASMOBRANCHS
+    SETTINGS
+    HOME
+*/
+
+const English = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+}
+
+const Hindi = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+}
+
+const Gujarati = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+}
+
+const Marathi = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+}
+
+const Kannada = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+}
+
+const Malayalam = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+}
+
+const Tamil = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+}
+
+const Odia = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+}
+
+const Bengali = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+}
+
+const Konkani = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+}
+
+const Indonesian = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+}
+
+const Malay = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+}
+
+const Sindhi = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+
+}
+
+const Sinhala = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+}
+
+const Telgu = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+}
+
+const Thai = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+}
+
+const Urdu = {
+    "SIZE": "",
+    "COLOUR PATTERN": "",
+    "DORSAL FIN": "",
+    "TEETH COUNT": "",
+    "BALEEN PLATE": "",
+    "THROAT GROOVES": "",
+    "SEASONAL MOVEMENT": "",
+    "HABITAT PREFERANCE": "",
+    "IDENTIFY": "",
+    "REDUCE ANIMATION": "",
+    "ANIMATION": "",
+    "LANGUAGE": "",
+    "MARINE MAMMALS": "",
+    "ABOUT": "",
+    "TURTLES": "",
+    "ELASMOBRANCHS": "",
+    "SETTINGS": "",
+    "HOME": "",
+}
