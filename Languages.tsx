@@ -39,6 +39,7 @@ Words to Translate
     ELASMOBRANCHS
     SETTINGS
     HOME
+    THEME
 */
 
 const English = {
@@ -60,6 +61,7 @@ const English = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
+    "THEME": "",
 }
 
 const Hindi = {
@@ -81,6 +83,7 @@ const Hindi = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
+    "THEME": "",
 }
 
 const Gujarati = {
@@ -102,6 +105,7 @@ const Gujarati = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
+    "THEME": "",
 }
 
 const Marathi = {
@@ -123,6 +127,7 @@ const Marathi = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
+    "THEME": "",
 }
 
 const Kannada = {
@@ -144,6 +149,7 @@ const Kannada = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
+    "THEME": "",
 }
 
 const Malayalam = {
@@ -165,6 +171,7 @@ const Malayalam = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
+    "THEME": "",
 }
 
 const Tamil = {
@@ -186,6 +193,7 @@ const Tamil = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
+    "THEME": "",
 }
 
 const Odia = {
@@ -207,6 +215,7 @@ const Odia = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
+    "THEME": "",
 }
 
 const Bengali = {
@@ -228,6 +237,7 @@ const Bengali = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
+    "THEME": "",
 }
 
 const Konkani = {
@@ -249,6 +259,7 @@ const Konkani = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
+    "THEME": "",
 }
 
 const Indonesian = {
@@ -270,6 +281,7 @@ const Indonesian = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
+    "THEME": "",
 }
 
 const Malay = {
@@ -291,6 +303,7 @@ const Malay = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
+    "THEME": "",
 }
 
 const Sindhi = {
@@ -312,7 +325,7 @@ const Sindhi = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
-
+    "THEME": "",
 }
 
 const Sinhala = {
@@ -334,6 +347,7 @@ const Sinhala = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
+    "THEME": "",
 }
 
 const Telgu = {
@@ -355,6 +369,7 @@ const Telgu = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
+    "THEME": "",
 }
 
 const Thai = {
@@ -376,6 +391,7 @@ const Thai = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
+    "THEME": "",
 }
 
 const Urdu = {
@@ -397,4 +413,5 @@ const Urdu = {
     "ELASMOBRANCHS": "",
     "SETTINGS": "",
     "HOME": "",
+    "THEME": "",
 }
